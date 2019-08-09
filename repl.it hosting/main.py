@@ -3,7 +3,7 @@
 import discord
 from discord.ext import commands
 import asyncio
-from keep_alive import keep_alive
+from webserver import keep_alive
 import os
 
 client = commands.Bot(command_prefix = "<")
